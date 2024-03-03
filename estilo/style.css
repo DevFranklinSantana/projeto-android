@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+@font-face {
+  font-family:'protest';
+  src: url('C:\Users\drfra\OneDrive\Documentos\ESTUDO\HTML-CSS\EXERCICIOS\desafio10_novo\DancingScript-VariableFont_wght.ttf') format("truetype");
+  font-weight: normal;
+}
+
+:root{
+
+--font-destaque:"Protest+Guerrilla",cursive;
+
+
+
+}
+
+body{ 
+
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+    background-color: rgba(3, 189, 62, 0.726);
+    text-align: justify;
+
+  
+}
+      
+    header{ 
+        background: linear-gradient(to top, #00642c, #48f17d);
+        color: aliceblue;
+        padding: 5px;
+      
+
+        h1{
+           font-family: Arial, Helvetica, sans-serif;
+           text-align: center;
+
+       }
+
+       p{
+         
+         text-align: center;
+       }
+      
+
+
+         }
+
+     
+.foto1{
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+  height: auto; /* Mantém a proporção da imagem */
+  display: block; /* Remove qualquer espaçamento adicional ao redor da imagem */
+  width: 550px;
+  margin: 0 auto;
+}
+
+.foto2 {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+  height: auto; /* Mantém a proporção da imagem */
+  display: block; /* Remove qualquer espaçamento adicional ao redor da imagem */
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.foto3{
+
+width: 400px;
+height: 400px;
+display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+}
+
+
+
+
+
+.quer{
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+  height: auto; /* Mantém a proporção da imagem */
+  display: block; /* Remove qualquer espaçamento adicional ao redor da imagem */
+  margin: 2px;
+  margin-top: 20px;
+  background-color: #02cb59;
+  color: white;
+
+border-radius: 10px 10px 0px 0px;
+align-items: center; /* centralizar verticalmente o conteúdo */
+padding: 10px; /* recuo do texto em relação à borda */
+
+}
+    
+.outro{ 
+
+  background-color: #abffcf;
+  width:980px; /* Largura desejada */
+height: 1200px; /* Altura desejada */
+border-radius: 0px 0px 10px 10px; /* Borda arredondada de 5 pixels */
+  justify-content:center;
+  padding: 10px;
+  
+}
+
+nav{ 
+
+    word-spacing: 5px;
+    padding:10px;
+    box-shadow: 0px 7px 7px  black;
+}
+
+
+
+nav > a { 
+padding: 10px;
+text-decoration: none;
+color: rgb(242, 241, 243);
+font-weight: bold;
+transition-duration: .5s;
+
+
+}
+
+nav > a:hover{   /* serve para quando passar o mouse destacar o item.*/
+  background-color: #42d07f;
+  color:#01602a
+
+  text-decoration:underline; /*sublinhar a seleção do link, não funciona caso coloque background color*/
+
+}
+
+
+main{ 
+
+min-width: 300px;   /*configuração importante para responsividade(encaixe perfeito para cada formato de tela)*/
+max-width: 1000px; /*configuração importante para responsividade*/
+background-color: white;
+font-family:var(--fonte-destaque);
+border-radius: 0px;
+box-shadow: 2px 2px 2px rgba(7, 7, 7, 0.616);
+padding: 15px;
+margin: auto;
+text-indent: 25px;
+
+p{ 
+
+ 
+  line-height: 2em;
+}
+
+
+h2{
+
+    
+    background: linear-gradient(to right, #abffcf, #ffffff);
+    
+    
+}
+
+     iframe{ 
+      
+      width: 100%; /* Defina a largura do vídeo como 100% do contêiner pai */
+    height: 500px; /* Mantenha a proporção original do vídeo */
+    display: block; /* Remova espaçamentos extras ao redor do vídeo */
+   
+
+     }   
+  
+    
+    a:hover{ 
+
+background-color: #00d15b;
+    }
+}               
+
+aside{
+
+  background-color: #abffcf;
+  border-radius: 10px;
+  text-indent: 25px;
+  box-shadow: 2px 2px  black;
+
+  p{
+
+    padding: 5px;
+  }
+
+}
+  
+aside > ul{
+
+  list-style-type: none;
+  columns: 2;
+
+
+
+}
+
+
+ footer {
+        text-align: center;
+        background-color: green;
+        color:white;
+    }
+        
+    
