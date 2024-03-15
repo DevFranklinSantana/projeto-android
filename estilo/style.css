@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-li{ 
+li font{ 
 
 font-size:11px ;
 
@@ -8,11 +8,9 @@ font-size:11px ;
 body{ 
 
   font-family: Arial, Helvetica, sans-serif;
-  
-
-    background-color: rgba(3, 189, 62, 0.726);
-    text-align: justify;
-
+  background-color: rgba(3, 189, 62, 0.726);
+  text-align: justify;
+  font
   
 }
       
@@ -65,11 +63,8 @@ display: block;
 
 }
 
-
-
-
-
 .quer{
+
   max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
   height: auto; /* Mantém a proporção da imagem */
   display: block; /* Remove qualquer espaçamento adicional ao redor da imagem */
@@ -77,10 +72,9 @@ display: block;
   margin-top: 20px;
   background-color: #02cb59;
   color: white;
-
-border-radius: 10px 10px 0px 0px;
-align-items: center; /* centralizar verticalmente o conteúdo */
-padding: 10px; /* recuo do texto em relação à borda */
+  border-radius: 10px 10px 0px 0px;
+  align-items: center; /* centralizar verticalmente o conteúdo */
+  padding: 10px; /* recuo do texto em relação à borda */
 
 }
     
@@ -88,8 +82,8 @@ padding: 10px; /* recuo do texto em relação à borda */
 
   background-color: #abffcf;
   width:980px; /* Largura desejada */
-height: 1200px; /* Altura desejada */
-border-radius: 0px 0px 10px 10px; /* Borda arredondada de 5 pixels */
+  height: 1200px; /* Altura desejada */
+  border-radius: 0px 0px 10px 10px; /* Borda arredondada de 5 pixels */
   justify-content:center;
   padding: 10px;
   
@@ -152,7 +146,7 @@ h2{
 
      iframe{ 
       
-      width: 100%; /* Defina a largura do vídeo como 100% do contêiner pai */
+    width: 100%; /* Defina a largura do vídeo como 100% do contêiner pai */
     height: 500px; /* Mantenha a proporção original do vídeo */
     display: block; /* Remova espaçamentos extras ao redor do vídeo */
    
