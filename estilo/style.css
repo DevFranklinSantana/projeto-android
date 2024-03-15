@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-font{ 
+.font{ 
 
-font-size: small;
+font-size:10px ;
 
 }
 body{ 
