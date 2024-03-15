@@ -1,23 +1,10 @@
 @charset "UTF-8";
 
-ul {
-  padding: 0;
-  list-style: none;
-}
+font{ 
 
-li {
-  margin-bottom: 10px;
-  padding-left: 20px;
-  position: relative;
-}
+font-size: small;
 
-/* Estilo para ajustar o alinhamento quando a tela é menor */
-@media only screen and (max-width: 600px) {
-  li {
-    padding-left: 10px;
-  }
 }
-
 body{ 
 
   font-family: Arial, Helvetica, sans-serif;
