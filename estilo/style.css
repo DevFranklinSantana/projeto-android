@@ -1,7 +1,12 @@
 @charset "UTF-8";
 
 
+li{
 
+  display: auto;
+  padding: auto;
+
+}
 body{ 
 
   font-family: Arial, Helvetica, sans-serif;
