@@ -9,7 +9,7 @@
 
 #font1, #font2,  #font3, #font4 {
 
-
+  font-display: swap;
   font-size: 12px;
 }
 body{ 
