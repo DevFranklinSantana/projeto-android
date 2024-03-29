@@ -180,7 +180,7 @@ aside > ul{
 
   list-style-type: none;
   columns: 2;
-  padding: 50px;
+  column-fill: auto;
 
 
 }
